@@ -4,7 +4,7 @@ const kategoriSchema = new mongoose.Schema({
     nama_kategori : {
         type : String,
     },
-    deskripsi_kategori : {
+    deskripsi : {
         type : String,
     },
     created_at : {
